@@ -77,54 +77,19 @@
     opacity: 0.9;
 }
 
-/* Stats Section */
-.hero__stats {
+/* Actions */
+.hero__actions-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 24px;
     margin-bottom: 40px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.03);
-    backdrop-filter: blur(10px);
-    border-radius: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    width: fit-content;
-    animation: fadeInUp 1s ease-out 0.2s forwards;
-    opacity: 0;
 }
 
-.hero__stat {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.hero__stat-value {
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: var(--accent-primary);
-    line-height: 1;
-}
-
-.hero__stat-label {
-    font-size: 0.8rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.hero__stat-divider {
-    width: 1px;
-    height: 30px;
-    background: rgba(255, 255, 255, 0.1);
-}
-
-/* Actions */
 .hero__actions {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    margin-bottom: 40px;
 }
 
 /* Picture Visual & Floating Badges */
@@ -257,7 +222,6 @@
 .hero__social {
     display: flex;
     gap: 16px;
-    margin-top: 10px;
     animation: fadeInUp 1s ease-out 0.4s forwards;
     opacity: 0;
 }
@@ -266,9 +230,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--text-secondary);
