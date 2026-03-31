@@ -39,11 +39,11 @@ export default function About() {
                             </p>
                             <div className="about__stats">
                                 <div className="about__stat">
-                                    <span className="about__stat-number">100+</span>
+                                    <span className="about__stat-number">150+</span>
                                     <span className="about__stat-label">Problems Solved</span>
                                 </div>
                                 <div className="about__stat">
-                                    <span className="about__stat-number">33+</span>
+                                    <span className="about__stat-number">40+</span>
                                     <span className="about__stat-label">Rooms completed</span>
                                 </div>
                                 <div className="about__stat">
