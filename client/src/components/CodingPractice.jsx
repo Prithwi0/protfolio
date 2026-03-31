@@ -4,8 +4,9 @@ import './CodingPractice.css'
 
 export default function CodingPractice() {
     const stats = [
-        { platform: 'LeetCode', count: '100+', label: 'Problems Solved', icon: '📝', link: 'https://leetcode.com/u/prithwirajroy43/' },
-        { platform: 'TryHackMe', count: '30 Days', label: 'Learning Streak', icon: '🛡️', link: 'https://tryhackme.com/p/prithwirajroy431' }
+        { platform: 'LeetCode', count: '150+', label: 'Problems Solved', icon: '📝', link: 'https://leetcode.com/u/prithwirajroy431/' },
+        { platform: 'TryHackMe', count: '40+ Days', label: 'Learning Streak', icon: '🔥', link: 'https://tryhackme.com/p/prithwirajroy431' },
+        { platform: 'TryHackMe', count: '40+', label: 'Rooms Completed', icon: '🛡️', link: 'https://tryhackme.com/p/prithwirajroy431' }
     ]
 
     const focuses = ['Arrays & Strings', 'Linked Lists', 'Trees & Graphs', 'Dynamic Programming', 'Hashing']
