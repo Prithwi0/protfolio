@@ -15,8 +15,8 @@ const fallbackProjects = [
     {
         id: 2,
         title: 'AI Code Reviewer',
-        description: 'A tool that analyzes code and provides automated feedback to improve code quality and detect potential issues using AI concepts.',
-        technologies: ['Python', 'AI/ML Concepts', 'Web Technologies'],
+        description: 'A full-stack AI-powered code analysis tool built with the MERN stack. It uses AI to analyze code and provides automated feedback to improve code quality and detect potential security issues.',
+        technologies: ['MongoDB', 'Express', 'React', 'Node.js', 'AI Concepts'],
         github: 'https://github.com/Prithwi0/AI_code-_reviewer',
         liveDemo: null,
         icon: '🤖'
