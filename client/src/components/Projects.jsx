@@ -5,9 +5,9 @@ import './Projects.css'
 const fallbackProjects = [
     {
         id: 1,
-        title: 'Projexis - Project Management App',
-        description: 'A comprehensive project management web application built with React and Vite. It provides teams with a centralized platform to manage projects, tasks, team members, and analytics.',
-        technologies: ['React 19', 'Vite', 'Tailwind', 'date-fns', 'React Router'],
+        title: 'Project Management App',
+        description: 'A comprehensive project management web application built with the MERN stack (MongoDB, Express, React, Node.js). It provides teams with a centralized platform to manage projects, tasks, team members, and analytics.',
+        technologies: ['MongoDB', 'Express', 'React', 'Node.js', 'Tailwind'],
         github: 'https://github.com/Prithwi0/project-management-app',
         liveDemo: null,
         icon: '📋'
