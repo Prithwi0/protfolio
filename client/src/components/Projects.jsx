@@ -5,6 +5,15 @@ import './Projects.css'
 const fallbackProjects = [
     {
         id: 1,
+        title: 'Projexis - Project Management App',
+        description: 'A comprehensive project management web application built with React and Vite. It provides teams with a centralized platform to manage projects, tasks, team members, and analytics.',
+        technologies: ['React 19', 'Vite', 'Tailwind', 'date-fns', 'React Router'],
+        github: 'https://github.com/Prithwi0/project-management-app',
+        liveDemo: null,
+        icon: '📋'
+    },
+    {
+        id: 2,
         title: 'AI Code Reviewer',
         description: 'A tool that analyzes code and provides automated feedback to improve code quality and detect potential issues using AI concepts.',
         technologies: ['Python', 'AI/ML Concepts', 'Web Technologies'],
@@ -13,19 +22,16 @@ const fallbackProjects = [
         icon: '🤖'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Efficient Page Replacement Algorithm',
         description: 'A study and implementation of efficient page replacement algorithms (such as LRU, FIFO, or Optimal) for operating system memory management.',
         technologies: ['C/C++', 'OS Concepts', 'Algorithms'],
         github: 'https://github.com/Prithwi0/Efficient-page-replacement-simulator',
         liveDemo: null,
         icon: '🖥️'
-
-
-
     },
     {
-        id: 3,
+        id: 4,
         title: 'Weather App',
         description: 'A weather forecasting web application that provides real-time weather updates and forecasts using a third-party weather API.',
         technologies: ['Python', 'Flask', 'API Integration', 'HTML', 'CSS'],
